@@ -1,0 +1,122 @@
+html{
+    background: linear-gradient(lightblue, darkblue);
+    background-attachment: fixed;
+}
+img{
+    max-width: 100%;
+    position: relative;
+    
+}
+section{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#1d7d8e, #ddf6b8);
+    border-radius: 20px;
+    position: relative;
+    left: 14rem;
+    top: 10rem;
+    height: 500px;
+    
+    
+}
+div{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 7rem;
+}
+h1::first-letter{
+    color: #8b0306;
+    }
+h2::first-letter{
+    color: #ff4200;
+}
+h2{
+    color: white;
+    position: relative;
+    left: 15rem;
+   
+    
+} 
+label{
+    color: white;
+    
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: 500px;
+    position: relative;
+    bottom: 4.2rem;    
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 22px ;
+    border-bottom-right-radius: 22px;
+    
+    
+
+    
+}
+a:nth-child(1){
+    color: white;
+    background-color: blue;
+    width: 170%;
+    height: 170%;
+    position: relative;
+    bottom: 8rem;
+    right: 1rem;
+    
+}
+a{
+    color: white;
+    background-color: green;
+    text-align: center;
+    border-radius: 30px;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    background-position: 100%;
+    
+    
+}
+
+input{
+    border-radius: 15px;
+    height: 100%;
+    text-align: center;
+}
+textarea{
+    border-radius: 10px;
+}
+.row1{
+    position: relative;
+    right: 10rem;
+    top: 8.5rem;
+    height: 35px;
+    width: 130%;
+}
+.row2{
+    position: relative;
+    left: 10rem;
+    bottom: 10rem;
+    height: 35px;
+    width: 130%;
+}
+
+
+
+
+
